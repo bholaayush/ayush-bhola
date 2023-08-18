@@ -14,6 +14,7 @@ body {
   background-size: cover;
   
   font-family: "Poppins", sans-serif;
+  width: 100%;
 }
 html {
   scroll-behavior: smooth;
@@ -54,9 +55,9 @@ nav {
 }
 
 .nav-links {
-  gap: 2rem;
+  /* gap: 2rem; */
   list-style: none;
-  font-size: 1.5rem;
+  /* font-size: 1.5rem; */
 }
 
 a {
@@ -166,7 +167,7 @@ a:hover {
 section {
   padding-top: 4vh;
   height: 96vh;
-  margin: 0 10rem;
+  /* margin: 0 10rem; */
   box-sizing: border-box;
   min-height: fit-content;
 }
@@ -181,23 +182,26 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 5rem;
+  gap: 2%;
   height: 80vh;
+  width: 100%;
 }
 
 .profile-pic{
   display: block;
   max-width: 400px;
   max-height: 400px;
-  width: auto;
+ 
   height: auto;
   aspect-ratio: 1;
+  width: 50%;
   border-radius: 50%;
   }
 
 
 .section__text {
   display: flex;
+  width: 50%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -249,7 +253,7 @@ section {
   font-weight: 600;
   transition: all 300ms ease;
   padding: 1rem;
-  width: 8rem;
+  /* width: 8rem; */
   border-radius: 2rem;
 }
 
@@ -514,13 +518,26 @@ body {
 /* FOOTER SECTION */
 
 footer {
-  height: 26vh;
-  margin: 0 1rem;
+  /* height: 26vh; */
+  /* margin: 0 1rem; */
 }
 
 footer p {
   text-align: center;
 }
 
+
+@media screen and (max-width: 768px) {
+  body {
+    background-image: url("assets/images/rm222batch2-mind-03.jpg");
+    background-color: #cccccc;
+    background-position: center;
+    background-size: cover;
+    
+    font-family: "Poppins", sans-serif;
+    width: 157%;
+  }
+
+}
 
 
