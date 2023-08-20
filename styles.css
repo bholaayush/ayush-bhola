@@ -74,14 +74,14 @@ a,
   gap: 20px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .navbar-menu {
     display: none;
     flex-direction: column;
     position: absolute;
     top: 60px;
     left: 0;
-    width: 100%;
+    width: 150%;
     background-color: #333;
     text-align: center;
   }
