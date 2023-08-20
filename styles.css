@@ -8,10 +8,14 @@
 }
 
 body {
-  background-image: url("assets/images/rm222batch2-mind-03.jpg");
-  background-color: #cccccc;
-  background-position: center;
+   background-image: url('path/to/your/image.jpg');
   background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
   
   font-family: "Poppins", sans-serif;
   width: 100%;
