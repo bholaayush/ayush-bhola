@@ -8,7 +8,7 @@
 }
 
 body {
-  background-image: url("222batch2-mind-03.jpg");
+  background-image: url("assets/images/rm222batch2-mind-03.jpg");
   background-color: #cccccc;
   background-position: center;
   background-size: cover;
@@ -463,7 +463,7 @@ footer p {
 
 @media screen and (max-width: 768px) {
   body {
-    background-image: url("images/rm222batch2-mind-03.jpg");
+    background-image: url("assets/images/rm222batch2-mind-03.jpg");
     background-color: #cccccc;
     background-position: center;
     background-size: cover;
