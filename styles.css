@@ -465,7 +465,7 @@ footer p {
         background-size: cover;
 
         font-family: "Poppins", sans-serif;
-        width: 157%;
+        width: auto;
     }
 
 }
