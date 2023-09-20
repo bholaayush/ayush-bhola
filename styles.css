@@ -467,5 +467,21 @@ footer p {
         font-family: "Poppins", sans-serif;
         width: auto;
     }
+.contact-info-container {
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: center; /* Center items horizontally */
+    text-align: center; /* Center text within items */
+}
+
+.contact-info-container p {
+    margin: 0.5rem; /* Add some spacing around the text */
+}
+
+/* Optional: Adjust the width of the contact info box */
+.contact-info-container {
+    width: auto; /* You can adjust this value to control the width */
+    max-width: 100%; /* Ensure it doesn't exceed the screen width */
+}
+
 
 }
