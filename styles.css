@@ -97,14 +97,7 @@ a,
         display: flex;
     }
 
-    .menu-toggle {
-        display: flex;
-    }
-
-    .menu {
-        width: 100%;
-        right: -100%; /* Initially hidden off-screen */
-    }
+    
 }
 }
 
