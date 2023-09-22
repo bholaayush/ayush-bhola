@@ -271,6 +271,23 @@ a,
     width: 400px;
     margin: auto 0;
 }
+/*SKILLS SECTION*/
+.Skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.icon {
+    width: calc(20% - 10px); /* 20% to fit 5 icons in a row with spacing */
+    margin-bottom: 10px; /* Add vertical spacing between rows */
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+}
+
+.icon img {
+    width: 100%;
+    height: auto;
+}
 
 /* EXPERIENCE SECTION */
 #experience {
