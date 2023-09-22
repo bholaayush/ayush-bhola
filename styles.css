@@ -293,16 +293,20 @@ a,
     grid-gap: 10px; /* Adjust spacing between icons */
 }
 
+/* Center-align the heading within the container */
 .heading {
-    margin-top: 20px; /* Add margin to push the heading down */
-    text-align: center; /* Center-align the heading */
+    text-align: center;
 }
 
+/* Update the CSS for the skill icons */
 .icon-section {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center; /* Center-align items vertically */
+    gap: 20px; /* Adjust the gap between icons */
 }
+
 .icon {
     width: 100px; /* Set the desired width for your icons */
     height: 100px; /* Set the desired height for your icons */
@@ -311,8 +315,8 @@ a,
 }
 
 .icon img {
-    width: 100%;
-    height: 100%;
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    height: auto; /* Maintain the aspect ratio */
 }
 /* EXPERIENCE SECTION */
 #experience {
