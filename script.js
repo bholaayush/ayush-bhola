@@ -28,8 +28,17 @@ anchorLinks.forEach((link) => {
 document.addEventListener('DOMContentLoaded', function () {
     const menuToggle = document.getElementById('menu-toggle');
     const menu = document.getElementById('menu');
+    const menuItems = document.querySelectorAll('#menu a');
 
+    // Toggle the menu when the menuToggle button is clicked
     menuToggle.addEventListener('click', function () {
         menu.classList.toggle('open');
+    });
+
+    // Close the menu when a menu item is clicked
+    menuItems.forEach((menuItem) => {
+        menuItem.addEventListener('click', function () {
+            menu.classList.remove('open');
+        });
     });
 });
