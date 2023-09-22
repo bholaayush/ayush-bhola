@@ -275,6 +275,10 @@ a,
     margin: auto 0;
 }
 /*SKILLS SECTION*/
+.container {
+    text-align: center; /* Center-align the content horizontally */
+}
+
 .Skills {
     display: grid;
     grid-template-columns: repeat(5, 1fr); /* 5 columns */
@@ -286,6 +290,11 @@ a,
     text-align: center; /* Center-align the heading */
 }
 
+.icon-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 .icon {
     width: 100px; /* Set the desired width for your icons */
     height: 100px; /* Set the desired height for your icons */
