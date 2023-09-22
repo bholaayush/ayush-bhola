@@ -291,6 +291,9 @@ a,
     width: 100px; /* Set the desired width for your icons */
     height: 100px; /* Set the desired height for your icons */
     margin: 10px; /* Add margin to space out the icons */
+    width: calc(20% - 10px); /* 20% to fit 5 icons in a row with spacing */
+    margin-bottom: 5px; /* Add vertical spacing between rows */
+    box-sizing: border-box; /* Include padding and border in the width calculation */
 }
 
 .icon img {
