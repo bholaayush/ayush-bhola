@@ -274,12 +274,16 @@ a,
 /*SKILLS SECTION*/
 .Skills {
     display: grid;
+    position: relative;
     grid-template-columns: repeat(5, 1fr); /* 5 columns */
     grid-gap: 10px; /* Adjust spacing between icons */
 }
 
 .icon {
     width: 100%; /* Each icon takes up the full width of its column */
+    width: calc(20% - 10px); /* 20% to fit 5 icons in a row with spacing */
+    margin-bottom: 10px; /* Add vertical spacing between rows */
+    box-sizing: border-box; /* Include padding and border in the width calculation */
 }
 
 .icon img {
