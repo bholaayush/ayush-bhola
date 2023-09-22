@@ -96,7 +96,15 @@ a,
     .navbar-toggle {
         display: flex;
     }
+    /* Initially hide the menu */
+    #menu {
+        display: none;
+    }
 
+    /* Show the menu when the "open" class is applied */
+    #menu.open {
+        display: block;
+    }
     
 }
 }
