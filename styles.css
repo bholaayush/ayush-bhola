@@ -285,7 +285,7 @@ a,
 /*SKILLS SECTION*/
 .icon-section {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    grid-template-columns: repeat(5, 1fr); /* 3 columns */
     grid-template-rows: repeat(3, 1fr); /* 3 rows */
     gap: 10px; /* Adjust spacing between icons */
 }
