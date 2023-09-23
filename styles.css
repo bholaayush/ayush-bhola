@@ -283,28 +283,11 @@ a,
     margin: auto 0;
 }
 /*SKILLS SECTION*/
-.container {
-    text-align: center; /* Center-align the content horizontally */
-}
-
-.Skills {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr); /* 5 columns */
-    grid-gap: 10px; /* Adjust spacing between icons */
-}
-
-/* Center-align the heading within the container */
-.heading {
-    text-align: center;
-}
-
-/* Update the CSS for the skill icons */
 .icon-section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center; /* Center-align items vertically */
-    gap: 20px; /* Adjust the gap between icons */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    grid-template-rows: repeat(3, 1fr); /* 3 rows */
+    gap: 10px; /* Adjust spacing between icons */
 }
 
 .icon {
@@ -312,11 +295,15 @@ a,
     height: 100px; /* Set the desired height for your icons */
     margin: 10px; /* Add margin to space out the icons */
     box-sizing: border-box; /* Include padding and border in the width calculation */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff; /* Add a background color to each icon for visibility */
 }
 
-.icon img {
-    max-width: 100%; /* Ensure the image doesn't exceed its container */
-    height: auto; /* Maintain the aspect ratio */
+.center-icon {
+    grid-column: 2; /* Center the last icon horizontally in the second column */
+    grid-row: 3; /* Place the last icon in the third row */
 }
 /* EXPERIENCE SECTION */
 #experience {
