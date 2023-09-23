@@ -286,7 +286,7 @@ a,
 .icon-section {
     display: grid;
     justify-content:center;
-    width: 600px
+    width: 600px;
     grid-template-columns: repeat(5, 1fr); /* 3 columns */
     grid-template-rows: repeat(3, 1fr); /* 3 rows */
     gap: 10px; /* Adjust spacing between icons */
