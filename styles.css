@@ -7,6 +7,10 @@
 
 /* Apply a basic styling to the body */
 body {
+  background-image: url('assets/images/bakcground.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Optional: Fixed background for parallax effect */
   font-family: Arial, sans-serif;
   background-color: #78D6C6;
 }
