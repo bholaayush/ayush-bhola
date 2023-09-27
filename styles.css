@@ -8,22 +8,19 @@
 /* Apply a basic styling to the body */
 body {
   font-family: Arial, sans-serif;
-
   background-color: #78D6C6;
-  
-
 }
 
 /* Navigation Styles */
 .navbar {
-  background-color: white; /* Set the background color to white */
+  background-color: white;
   padding: 10px 0;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .navbar-brand {
   font-size: 24px;
-  color: #333; /* Change the text color of the brand/logo */
+  color: #333;
 }
 
 .navbar-nav {
@@ -36,15 +33,13 @@ body {
 
 .nav-link {
   font-size: 16px;
-  color: #333; /* Change the text color of the links */
+  color: #333;
   transition: color 0.3s ease;
 }
 
 .nav-link:hover {
-  color: #007bff; /* Change the link color on hover */
+  color: #007bff;
 }
-/* Add your navigation styles here */
-/* Home Section Styles */
 
 /* About Me Section Styles */
 #About {
@@ -76,7 +71,7 @@ body {
 .img-fluid {
   max-width: 100%;
   height: auto;
-  border-radius: 50%;
+  border-radius: 50%; /* Make the image round */
 }
 
 h2 {
@@ -90,24 +85,23 @@ p {
   line-height: 1.5;
 }
 
-
 /* Responsive Styles for Screens <= 768px */
 @media (max-width: 768px) {
   .col-md-6 {
-      flex: 0 0 100%;
-      max-width: 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
   }
 
   h2 {
-      font-size: 20px;
-      margin-bottom: 15px;
+    font-size: 20px;
+    margin-bottom: 15px;
   }
 
   p {
-      font-size: 14px;
+    font-size: 14px;
   }
   .carousel-caption d-none d-md-block {
-      display: block !important; /* Override Bootstrap's default hide setting */
-      position: static; /* Remove absolute positioning */
-    }
+    display: block !important;
+    position: static;
+  }
 }
